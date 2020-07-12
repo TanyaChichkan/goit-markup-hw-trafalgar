@@ -43,6 +43,15 @@ a {
 
 }
 
+.container_decoration {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
 .section__icon_backg {
     fill: rgba(147, 193, 249, 0.2);
     position: absolute;
@@ -413,17 +422,12 @@ line-height: 32px;
     margin-left: 15px;
 }
 
-.container_decoration {
-    max-width: 1600px;
-    margin: 0 auto;
-    overflow: hidden;
-}
 
 .background-6 {
     left:100%;
     bottom:0;
 
-    transform: translateX(110%);
+    transform: translateX(100%);
 }
 
 /* feedback */
@@ -654,7 +658,7 @@ line-height: 32px;
     
 }
 
-.page__footer {
+.page__footer .container_decoration {
     overflow: hidden;
     position: relative;
     z-index: 99;
@@ -675,10 +679,10 @@ line-height: 32px;
 
 .background-2 {
 
-    left:0;
+    right:100%;
     bottom:0;
-    transform: translate(-550px, 20px);
-    fill: rgb(255, 255, 255, 0.2);
+    transform: translateX(-90px);
+    fill: rgba(255, 255, 255, 0.2);
 }
 
 
