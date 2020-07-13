@@ -342,9 +342,9 @@ line-height: 32px;
 .section__iconbackg_drop-left {
 
     position: absolute;
-    right: 50%;
-    bottom:40%;
-    transform: translateY(-30px);
+    right: 0;
+    bottom:0;
+    transform: translate(-600px, -100px);
     fill: rgba(147, 193, 249, 0.2);
 
     z-index: 1;
@@ -567,7 +567,7 @@ line-height: 32px;
     position: absolute;
     left:65%;
     bottom:0;
-    transform: translate(-100px, -120px);
+    transform: translate(-100px, 100px);
     fill: rgba(147, 193, 249, 0.2);
 
     z-index: 1;
