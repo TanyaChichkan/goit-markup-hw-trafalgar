@@ -232,7 +232,7 @@ line-height: 32px;
 }
 
 .background-8 {
-    right:130%;
+    right:100%;
     bottom:85%;
 }
 
@@ -424,7 +424,7 @@ line-height: 32px;
 
 
 .background-6 {
-    left:100%;
+    left:95%;
     bottom:0;
 
     transform: translateX(100%);
